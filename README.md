@@ -1,43 +1,33 @@
 # README
 
-v1.1
+v2.0
 
 For questions, please contact Mark Claypool (claypool@cs.wpi.edu).
 
-This directory contains the data from the PuckHunt studies.
+This directory contains the data from studies on the effects of
+latency on game actions.
 
 Directories are:
 
-+ *mouse* - studies done with the mouse.
-+ *thumbstick* - studies done with the thumbstick.
++ *puckhunt* - studies done with the game "Puck Hunt" - the action of
+  selecting a target moving with kinematics.
 
-The mouse studies have sub-directories for WPI (data gathered at
-Worcester Polytechnic Institute) and Oslo (data gathered at Westerdals
-School of Arts, Communication and Technology).  Each directory also
-contains a "qualtrics" sub-directory with demographic information.
-
-For the game data, the fields are:
-
-+ *Time* - when data was gathered
-+ *Delay* - added delay (note - does *not* include local delay)
-+ *Impulse* - force added to target (achieves a certain speed)
-+ *Response* - the player's QoE rating (1-5ish)
-+ *Elapsed* -  elapsed time (time to select the target, in seconds)
-+ *Clicks* - number of clicks taken to select target
-+ *Mouse* - total mouse movement (pixels squared)
-
-Note, the same Impulse values for the Oslo data had very different
-target speeds than the WPI data.  We attribute this to the difference
-in the game engine performance on a Mac versus Windows.  See [CER17]
-for the actual target speeds.
++ *motion* - a study done on motion parameters - the action of
+  selecting a target moving with force-based physics.
 
 ## Citations
 
-For citing this work, please use [Clay18] for the thumbstick data and
-[CER17] for the mouse data (see the References for full citation
-information).
+For citing this work, please use [CER17] for the puckhunt mouse data,
+[Clay18] for the puckhunt thumbstick data, and [CCG19] for the motion
+data.
 
 ## References
+
+[CCG19] Mark Claypool, Andy Cockburn and Carl Gutwin. "Game Input with
+Delay - Moving Target Selection Parameters", In *Proceedings of the
+10th ACM Multimedia Systems Conference (MMSys)*, Amherst, MA, USA,
+June 18-21, 2019. Online at:
+http://www.cs.wpi.edu/~claypool/papers/delay-motion/
 
 [Clay18] Mark Claypool. "Game Input with Delay - Moving Target
 Selection with a Game Controller Thumbstick", *ACM Transactions on
