@@ -6,7 +6,7 @@ v1.1
 
 This directory contains the data from studies on the effects of
 latency on the action of selecting a target moving with force-based
-physics.
+physics.  It uses a game called "Juke!".
 
 The directories are:
 
