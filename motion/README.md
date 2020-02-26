@@ -2,7 +2,11 @@
 
 ## Motion 
 
-v1.0
+v1.1
+
+This directory contains the data from studies on the effects of
+latency on the action of selecting a target moving with force-based
+physics.
 
 The directories are:
 
@@ -13,7 +17,7 @@ The directories are:
 For the game data, the fields are:
 
 + *user_id*	- user id
-+ *turn* - round	
++ *turn* - game round	
 + *x_curs* - mouse x location (pixels)
 + *y_cursl*	- mouse y location (pixels)
 + *x_targ*n	- target x location (pixels)

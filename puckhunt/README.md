@@ -2,7 +2,10 @@
 
 ## PuckHunt
 
-v1.0
+v1.1
+
+This directory contains the data from studies on the effects of
+latency on the action of selecting a target moving with kinematics.
 
 Directories are:
 
