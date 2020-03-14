@@ -2,7 +2,7 @@
 
 ## Motion 
 
-v1.1
+v1.2
 
 This directory contains the data from studies on the effects of
 latency on the action of selecting a target moving with force-based
@@ -16,11 +16,11 @@ The directories are:
 
 For the game data, the fields are:
 
-+ *user_id*	- user id
++ *user_id* - user id
 + *turn* - game round	
 + *x_curs* - mouse x location (pixels)
-+ *y_cursl*	- mouse y location (pixels)
-+ *x_targ*n	- target x location (pixels)
++ *y_cursl* - mouse y location (pixels)
++ *x_targ*n - target x location (pixels)
 + *y_targ* - target y location (pixels)
 + *angle* - angle range when turning (in degrees)
 + *min_tim* - minimum time between turns (in milliseconds)
@@ -29,6 +29,10 @@ For the game data, the fields are:
 + *elapsed* - elapsed time (time to select the target, in milliseconds)
 + *targ_dist_trvl* - total pixel distance target traveled
 + *mouse_dist_trvl* - total pixel distance mouse traveled
+
+Note: the delays reported in the data files ("lag" above)
+do *not* include the local delays. The local delays were 
+50 milliseconds.
 
 ## References
 

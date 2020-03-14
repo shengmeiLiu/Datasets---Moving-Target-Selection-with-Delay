@@ -2,7 +2,7 @@
 
 ## PuckHunt
 
-v1.1
+v1.2
 
 This directory contains the data from studies on the effects of
 latency on the action of selecting a target moving with kinematics.
@@ -27,10 +27,18 @@ For the game data, the fields are:
 + *Clicks* - number of clicks taken to select target
 + *Mouse* - total mouse movement (pixels squared)
 
-Note, the same Impulse values for the Oslo data had very different
+Note 1: the same Impulse values for the Oslo data had very different
 target speeds than the WPI data.  We attribute this to the difference
 in the game engine performance on a Mac versus Windows.  See [CER17]
 file for the actual target speeds.
+
+Note 2: as specified above, the delays reported in the data files
+do *not* include the local delays. The local delays were as
+follows:
+
+WPI mouse: 100 milliseconds  
+WPI thumbstick: 50 milliseonds  
+Oslo: 20 milliseconds
 
 ## References
 
