@@ -4,7 +4,7 @@ v2.0
 
 For questions, please contact Mark Claypool (claypool@cs.wpi.edu).
 
-This directory contains the data from user studies on the effects of
+This repository contains the data from user studies on the effects of
 latency on game actions.
 
 Directories are:
