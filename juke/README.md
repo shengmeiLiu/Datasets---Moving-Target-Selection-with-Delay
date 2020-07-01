@@ -2,7 +2,7 @@
 
 ## Motion 
 
-v1.2
+v1.3
 
 This directory contains the data from studies on the effects of
 latency on the action of selecting a target moving with force-based
@@ -30,11 +30,17 @@ For the game data, the fields are:
 + *targ_dist_trvl* - total pixel distance target traveled
 + *mouse_dist_trvl* - total pixel distance mouse traveled
 
-Note: the delays reported in the data files ("lag" above)
-do *not* include the local delays. The local delays were 
-50 milliseconds.
+Note: the delays reported in the data files ("lag" above) do *not*
+include the local delays. The local delays were 50 milliseconds.
 
 ## References
+
+[CCG20] Mark Claypool, Andy Cockburn and Carl Gutwin. "The Impact of
+Motion and Delay on Selecting Game Targets with a Mouse", *ACM
+Transactions on Multimedia, Computing, Communinication and
+Applications (TOMM)*, Volume 16, Number 2s, Article 73,
+<https://doi.org/10.1145/3390464> May 2020. Online at:
+<http://www.cs.wpi.edu/~claypool/papers/delay-motion-tomm/>
 
 [CCG19] Mark Claypool, Andy Cockburn and Carl Gutwin. "Game Input with
 Delay - Moving Target Selection Parameters", In *Proceedings of the
