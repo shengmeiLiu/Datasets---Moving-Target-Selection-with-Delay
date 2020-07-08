@@ -46,5 +46,5 @@ Applications (TOMM)*, Volume 16, Number 2s, Article 73,
 Delay - Moving Target Selection Parameters", In *Proceedings of the
 10th ACM Multimedia Systems Conference (MMSys)*, Amherst, MA, USA,
 June 18-21, 2019. Online at:
-http://www.cs.wpi.edu/~claypool/papers/delay-motion/
+<http://www.cs.wpi.edu/~claypool/papers/delay-motion/>
 

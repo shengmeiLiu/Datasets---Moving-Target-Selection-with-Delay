@@ -10,24 +10,26 @@ latency on game actions.
 Directories are:
 
 + *puckhunt* - studies done with the game "Puck Hunt" - the action of
-  selecting a target moving with kinematics.
+  selecting a target moving with kinematics.  Studies have been
+  done with a mouse and a game controller thumbstick.
 
 + *juke* - a study done with the game "Juke!" - the action of
-  selecting a target moving with force-based physics.
+  selecting a target moving with force-based physics.  Studies have
+  been done with a mouse.
 
 ## Citations
 
-For citing this work, please use [CER17] for the puckhunt mouse data,
-[Clay18] for the puckhunt thumbstick data, and [CCG19] for the juke
+For citing this work, please use [CER17] for the Puck Hunt mouse data,
+[Clay18] for the Puck Hunt thumbstick data, and [CCG19] for the Juke!
 data.
 
 ## References
 
 [CCG20] Mark Claypool, Andy Cockburn and Carl Gutwin. "The Impact of
 Motion and Delay on Selecting Game Targets with a Mouse", *ACM
-Transactions on Multimedia, Computing, Communinication and
+Transactions on Multimedia, Computing, Communication and
 Applications (TOMM)*, Volume 16, Number 2s, Article 73,
-<https://doi.org/10.1145/3390464> May 2020. Online at:
+<https://doi.org/10.1145/3390464>, May 2020. Online at:
 <http://www.cs.wpi.edu/~claypool/papers/delay-motion-tomm/>
 
 [CCG19] Mark Claypool, Andy Cockburn and Carl Gutwin. "Game Input with
