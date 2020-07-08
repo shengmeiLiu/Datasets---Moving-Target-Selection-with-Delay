@@ -17,6 +17,9 @@ Worcester Polytechnic Institute) and Oslo (data gathered at Westerdals
 School of Arts, Communication and Technology).  Each directory also
 contains a "qualtrics" sub-directory with demographic information.
 
+Files ending in `*.txt` have tab-delimited columns and files ending in
+`*.csv` are comma-delimited.
+
 For the game data, the fields are:
 
 + *Time* - when data was gathered
