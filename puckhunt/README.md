@@ -25,7 +25,7 @@ For the game data, the fields are:
 + *Time* - when data was gathered
 + *Delay* - added delay (note - does *not* include local delay)
 + *Impulse* - force added to target (achieves a certain speed)
-+ *Response* - the player's QoE rating (1-5ish)
++ *Response* - the player's QoE rating (1-5 on screen, encoded as 0.0-1.0)
 + *Elapsed* -  elapsed time (time to select the target, in seconds)
 + *Clicks* - number of clicks taken to select target
 + *Mouse* - total mouse movement (pixels squared)
@@ -48,6 +48,8 @@ two data files - a left and a right hand.
 
 Note 4: For the Thumbstick dataset, the data for user49 was corrupted and
 has been removed from the dataset.
+
+Note 5: The "Response" column only contains real data once for every combination of conditions. The other instances has the dummy value -1.
 
 
 ## References
