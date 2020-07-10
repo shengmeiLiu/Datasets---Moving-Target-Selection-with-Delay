@@ -2,7 +2,7 @@
 
 ## PuckHunt
 
-v1.3
+v1.4
 
 This directory contains the data from studies on the effects of
 latency on the action of selecting a target moving with kinematics.
@@ -49,7 +49,8 @@ two data files - a left and a right hand.
 Note 4: For the Thumbstick dataset, the data for user49 was corrupted and
 has been removed from the dataset.
 
-Note 5: The "Response" column only contains real data once for every combination of conditions. The other instances has the dummy value -1.
+Note 5: The "Response" column only contains real data once for every
+combination of conditions. The other instances have a dummy value -1.
 
 
 ## References
